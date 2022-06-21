@@ -1,7 +1,7 @@
 def swappingFileDta(): 
      
-    file1 = open("sample1.txt")
-    file2 = open("sample2.txt")
+   file1 = input("enter files name:- ") 
+   file2 = input("enter files name:- ") 
 
     with open (file1, 'r') as a:
         data_a = a.read()
@@ -13,5 +13,5 @@ def swappingFileDta():
     with open (file2, 'w') as a:
         a.write(data_a)
      
-file = input("Enter the file name:- ")   
+
 swappingFileDta()
